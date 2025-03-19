@@ -1,8 +1,14 @@
-# open_spin_lauch
+![](design/logos/open_spin_launch_logo_text.png)
+
+------------------------------------------------
+
 ## Mission Profile
+
 - A spin launch system should be devised that will be used as the launch platform for many of our future projects. Probable missions that could be conducted with this launch platform could include: (i) deploy and propulsive landing, (ii) deploy and in-flight stage ignition, and (iii) deploy to UAV flight transition.
 - The system's main objective is to support the goal of a propulsive landing (i) by accurately deploying it to a target altitude. 
+
 ## Spin Launcher
+
 - Maximum achievable altitude: 150 m (theoretical altitude - drag not included)
 - Maximum radius: 2 m
 - Maximum rocket weight: 2 kg
@@ -18,7 +24,9 @@ For human cycling power, a maximum of 800 W is assumed for a maximum duration of
 - Video coverage: a camera should be installed in the spin launcher's arm so that it can capture the differential release of the vehicle. 
 
 ## Rocket
-Requirements and expected feature changes; 
+
+Requirements and expected feature changes:
+
 - Structural integrity: the rocket must be able to withstand the highest occurring launch g-forces. 
 - Attachment points: the rocket should integrate two attachment points with which it can be connected to the spin launcher. Those attachment points should be high-strength, durable, and should allow for rapid reuse. 
 - Fins and COG: the rocket will have the landing engines and most of its weight in its front and fins in its rear, which allow for a passively stabilized launch. After reaching apogee, the rocket will flip into its stable descent orientation, with its fins being on top and the engine pointing downwards. 
