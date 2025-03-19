@@ -1,4 +1,4 @@
-![](design/logos/open_spin_launch_logo_text.png)
+![](design/logos/open_spin_launch_logo_text_black.png)
 
 ------------------------------------------------
 
