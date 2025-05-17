@@ -31,7 +31,7 @@ def bending_stress(M, y, I):
 
 def cantilever_beam_deflection(F, L, E, I):
     """
-    Calculate maximum deflection for a cantilever beam with an end point load.
+    Calculate maximum deflection for a cantilever beam with an fixed and an open end. Load positioned at the open end point. 
     δ = F * L³ / (3 * E * I)
 
     Parameters:

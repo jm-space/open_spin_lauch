@@ -23,6 +23,6 @@ J_cw = params.m_cw * params.r_cw**2         # [kg*m^2]
 # Total 
 J_total = J_rod + J_rod_cw + J_rocket + J_cw # [kg*m^2]
 
-print(f"Main Rod: A = {A_rod:.2f} mm² | V = {V_rod:.0f} mm³ | m = {m_rod:.4f} kg | I = {J_rod:.3f} kg·m²")
-print(f"Counterweight Rod: A = {A_rod_cw:.2f} mm² | V = {V_rod_cw:.0f} mm³ | m = {m_rod_cw:.4f} kg | I = {J_rod_cw:.3f} kg·m²")
+print(f"Main Rod: A = {A_rod:.2f} mm² | V = {V_rod:.0f} mm³ | m = {m_rod:.4f} kg | I = {I_rod:.3f} kg·m² | J = {J_rod:.3f} kg·m²")
+print(f"Counterweight Rod: A = {A_rod_cw:.2f} mm² | V = {V_rod_cw:.0f} mm³ | m = {m_rod_cw:.4f} kg | I = {I_rod_cw:.3f} kg·m² | J = {J_rod_cw:.3f} kg·m²")
 print(f"Attached Masses: I_rocket = {J_rocket:.3f} kg·m² | I_cw = {J_cw:.3f} kg·m²")

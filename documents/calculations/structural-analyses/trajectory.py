@@ -1,6 +1,9 @@
 import numpy as np
 import params as params
 
+# ToDo get rid of unnecessary arrays
+
+
 def simulate(v_0, h_1, drag, record):
     v_0x = v_0 * np.sin(np.deg2rad(params.θ_release))
     v_0y = v_0 * np.cos(np.deg2rad(params.θ_release))
