@@ -1,3 +1,5 @@
+from enum import Enum, auto
+
 # Kinematics	
 h_max = 150.00 #[m]	
 include_drag = True
@@ -26,6 +28,11 @@ r_cw = 2.00 #[m]
 D_rod_cw = 25 #[mm]	
 d_rod_cw = 20 #[mm]	
 
+# Tube dimensions
+h_1 = 40 #[mm]	
+w_1 = 40 #[mm]	
+t_1 = 4 #[mm]	
+
 # Center motorization & bearing		
 r_drive = 0.100	# [m] Driving radius
 D_bear = 80.000	# [mm] Outer radius of bearing
@@ -37,21 +44,34 @@ w_bear = 20.000	# [mm] Bearing width
 g = 9.81 #[m/s^2]	
 dt = 0.02 #[s]	
 
+class Material(Enum):
+    STEEL_S235 = auto()     #Automatically a unique value to each class member
+    CARBON_FIBRE = auto()
+    PPA_CF = auto()
+    ALUMINIUM_6060 = auto()
+
+# Using ENUM as keys for the normal dictonary entry
 materials = {
-    "steel_S235": {
-        'density': 7850,                  # kg/m³ (correct)
-        'yield_strength': 2.35e8,        # Pa (235 MPa)
-        'young_modulus': 2.1e11,         # Pa (210 GPa)
-        'shear_modulus': 8.1e10,         # Pa (81 GPa)
+    Material.STEEL_S235: {
+        'density': 7850,
+        'yield_strength': 2.35e8,
+        'young_modulus': 2.1e11,
+        'shear_modulus': 8.1e10,
     },
-    "carbon_fibre": {
-        'density': 1500,                 # kg/m³ (correct)
-        'yield_strength': 6.0e8,         # Pa (600 MPa)
-        'young_modulus': 2.28e11,        # Pa (228 GPa)
-        'shear_modulus': 1.5e10,         # Pa (15 GPa)
+    Material.CARBON_FIBRE: {
+        'density': 1500,
+        'yield_strength': 6.0e8,
+        'young_modulus': 2.28e11,
+        'shear_modulus': 1.5e10,
     },
-    "PPA_CF": {
-        'yield_strength': 1.68e8,        # Pa (168 MPa)
-        'young_modulus': 9.86e9,         # Pa (9.86 GPa)
+    Material.PPA_CF: {
+        'yield_strength': 1.68e8,
+        'young_modulus': 9.86e9,
+    },
+    Material.ALUMINIUM_6060: {
+        'density': 2700,                # kg/m³
+        'yield_strength': 6e7,          # Pa (60 - 110MPa)
+        'young_modulus': 6.9e10,        # Pa (69 GPa)
+        'shear_modulus': 2.6e10,        # Pa (26 GPa)
     },
 }
