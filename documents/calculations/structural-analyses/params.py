@@ -9,7 +9,7 @@ include_drag = True
 t_speed_up = 60 #[s]	
 
 # payload parameters
-m_rocket = 1.50 #[kg] 
+m_rocket = 1.5 #[kg] 
 m_cw = 1.50 #[kg] 
 cd_rocket = 0.75 #[] 	
 A_rocket = 3850 #[mm^2]	

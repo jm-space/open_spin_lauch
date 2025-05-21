@@ -45,7 +45,7 @@ elif choice == 4:
 h_1 = params.h_0 - rod_rocket.length*np.sin(np.deg2rad(params.θ_release))
 
 # Optimizing release velocity to reach target altitude h_max with drag
-result = minimize_scalar(lambda v_0: objective(v_0, h_1), bounds=(10, 500), method='bounded')
+result = minimize_scalar(lambda v_0: objective(v_0, h_1), bounds=(10, 1300), method='bounded')
 trajectory_data_drag = simulate(result.x, h_1, True, True) 
 
 # Simulate trajectory for target altitude without drag
@@ -262,4 +262,4 @@ print(tabulate(
 # ============================
 #       VISUALIZATION
 # ============================
-
+gui.MyGUI()
