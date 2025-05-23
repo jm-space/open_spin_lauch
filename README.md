@@ -1,13 +1,18 @@
-![](design/logos/open_spin_launch_logo_text_black.png)
+![](design/logos/open_spin_launch_logo_text.png)
 
 ------------------------------------------------
 
-## Mission Profile
+A spin launch system that will be used as the launch platform for many of our future projects. Probable missions that could be conducted with this launch platform include
 
-- A spin launch system should be devised that will be used as the launch platform for many of our future projects. Probable missions that could be conducted with this launch platform could include: (i) deploy and propulsive landing, (ii) deploy and in-flight stage ignition, and (iii) deploy to UAV flight transition.
-- The system's main objective is to support the goal of a propulsive landing (i) by accurately deploying it to a target altitude. 
+- Deploy and propulsive landing
+- Deploy and in-flight stage ignition
+- Deploy to UAV flight transition
 
-## Spin Launcher
+The system's main objective is to support the goal of a propulsive landing by accurately deploying it to a target altitude. 
+
+## Requirements
+
+### Spin Launcher
 
 - Maximum achievable altitude: 150 m (theoretical altitude - drag not included)
 - Maximum radius: 2 m
@@ -23,7 +28,7 @@ For human cycling power, a maximum of 800 W is assumed for a maximum duration of
 - Modularity: the individual components of the spin launcher should be split into modules to allow for easy replacements and upgrades. In addition, the entire spin launch system should be able to be retrofitted into a bus without much additional effort. 
 - Video coverage: a camera should be installed in the spin launcher's arm so that it can capture the differential release of the vehicle. 
 
-## Rocket
+### Rocket
 
 Requirements and expected feature changes:
 
