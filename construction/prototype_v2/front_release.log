@@ -1,0 +1,97 @@
+STEP translation to Solid Edge
+Date: Wednesday,May 21,2025 07:58AM
+Source File: C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_release.STEP
+Author: Unknown
+Organization: Unknown
+Source System: SolidWorks 2024
+
+Hardware:
+Processor: 13th Gen Intel(R) Core(TM) i9-13900H
+Operating System: Windows 11 Version:24H2 Build:26100 System Type:64-bit
+Installed Memory: 31.73 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Home\Projects\open_spin_lauch\construction\prototype_v2
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_release.asm
+|--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_endpart.par
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_clamp_left.asm
+|  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_clamp_left_b.par
+|  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\din8012.par
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\skf_bearing_hk_0306_tn_2.asm
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\skf_bearing_hk_0306_tn_2_01.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\skf_bearing_hk_0306_tn_2_02.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\skf_bearing_hk_0306_tn_2_03.par
+|  |--+Total Parts: 6
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 6
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 5
+|--+Assemblies: 1
+|--+Solid Bodies: 4
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\release_pin.asm
+|  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\release_pin_lower.par
+|  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\release_pin_upper.par
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1.asm
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1_01.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1_02.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1_03.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1_04.par
+|  |  |--+Created SE Part File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\w_606-2rs1_05.par
+|  |--+Total Parts: 10
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 10
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 5
+|--+Assemblies: 1
+|--+Solid Bodies: 4
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Home\Projects\open_spin_lauch\construction\prototype_v2\front_clamp_left.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
++Total Parts: 4
++Assemblies: 2
++Solid Bodies: 2
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 01
